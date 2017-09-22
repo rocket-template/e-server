@@ -1,0 +1,7 @@
+{
+  "server_ip": "mongodb://127.0.0.1:27017/tag",
+  "backup_path": "/Users/zhangmike/test/backup",
+  "project_path": "/Users/zhangmike/test/",
+  "feature_path": "/Users/zhangmike/test/projects",
+  "prefix": "/m/"
+}

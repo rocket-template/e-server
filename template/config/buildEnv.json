@@ -1,0 +1,14 @@
+{
+  "hosts": {
+    "dev": "js.dev.com",
+    "pre": "js.pre.com",
+    "production": "js.com"
+  },
+  "urls": {
+    "lcdev": "http://localhost",
+    "dev": "http://dev.api",
+    "pre": "http://pre.com.cn",
+    "production": ""
+  },
+  "project": "{{name}}"
+}

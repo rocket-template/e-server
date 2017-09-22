@@ -1,0 +1,76 @@
+{
+	"500" : {
+		"message" : "Server errors",
+		"sub"     : {
+			"1"  : "Unknown error",
+			"2"  : "Service temporarily unavailable",
+			"3"  : "Internal error(Try Again Later)",
+			"4"  : "Network error",
+
+			"31" : "db query error",
+			"32" : "Datastore insert fail",
+			"33" : "Datastore update fail",
+			"34" : "Datastore delete fail"
+		}
+	},
+
+	"400" : {
+		"message" : "Bad request",
+		"sub"     : {
+			"101" : "Malformed json",
+			"102" : "Malformed raw",
+			"103" : "Missing parameter",
+			"104" : "Invalid parameter",
+			"105" : "Parameter already exists",
+			"106" : "Expected to be unique",
+			"107" : "Did not submit valid data",
+			"108" : "Record does not exist",
+
+			"111" : "Too many records to request, maxLimit=100",
+			"112" : "Bad page number in pagination",
+			"113" : "Bad order_by in pagination",
+			"114" : "Bad start/limit in pagination",
+			"115" : "Unsupported operator in pagination",
+			"35"  : "No key in record",
+
+			"151" : "Exceed quota"
+		}
+	},
+
+	"401" : {
+		"message" : "Unauthorized",
+		"sub"     : {
+			"211" : "Invalid authToken or no longer valid",
+			"212" : "Invalid/Used temporary token parameter",
+			"213" : "Session key invalid or no longer valid",
+			"214" : "Invalid name or password",
+			"216" : "Incorrect signature",
+			"217" : "Invalid/Used timestamp parameter",
+			"219" : "Invalid user/device id",
+			"220" : "Unsupported signature mothod",
+			"221" : "Access token invalid or no longer valid",
+
+			"231" : "Do not have permission to access service",
+			"232" : "Do not have permission to access module",
+			"233" : "Do not have permission to access api",
+			"234" : "Invalid IP"
+		}
+	},
+
+	"403" : {
+		"message" : "Forbidden",
+		"sub"     : {}
+	},
+
+	"404" : {
+		"message" : "Not found",
+		"sub"     : {}
+	},
+
+	"410" : {
+		"message" : "Gone(Data has been deleted, deactived, suspended, or does not exist, etc.)",
+		"sub"     : {
+			"36" : "Record not exist"
+		}
+	}
+}
