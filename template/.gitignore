@@ -1,14 +1,4 @@
-<<<<<<< HEAD
 # Created by .ignore support plugin (hsz.mobi)
-.idea
-node_modules/
-logs/
-log/
-dist/
-views/static/
-test/api/views/
-npm-debug*
-=======
 # OSX
 .DS_Store
 
@@ -25,7 +15,6 @@ yarn-error.log
 
 # Custom
 temp/
-mikelog.md
 
 # Other
 .svn
